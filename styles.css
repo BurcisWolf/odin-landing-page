@@ -2,16 +2,19 @@
     border: border-box;
     margin: 0 auto;
     padding: 0;
-    font-size: 16px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 /* SECTION DEFINITION */
 .header {
     background-color: #1F2937;
+    color: #F9FAF8;
 }
 .underhead {
     background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 50px 0 50px 0;
 }
 .info {
     background-color: white;
@@ -24,24 +27,25 @@
 }
 .footer {
     background-color: #1F2937;
+    color: #F9FAF8;
 }
 /* FLEX BOX PLAY */
 .container {
     max-width: 1000px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     padding: 18px 0 18px 0;
 }
-.header .container .left {
+.container .left {
     flex-grow: 1;
     text-align: left;
 }
-.header .container .right {
+.container .right {
     flex-grow: 1;
     text-align: right;
 }
 /* Text Styling */
-
 .logo-text {
     color: #F9FAF8;
     font-weight: 700;
@@ -49,11 +53,33 @@
 }
 .header .container a {
     text-decoration: none;
-    color: #F9FAF8;
+    color: #E5E7EB;
+    font-size: 18px;
     padding-left: 10px;
 }
 .header .container a:hover {
     text-decoration: underline;
-    color: #F9FAF8;
+    color: #E5E7EB;
+    font-size: 18px;
     padding-left: 10px;
+}
+.underhead .container .left .main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.underhead .container .left p {
+    text-align: left;
+}
+/* Others */
+.img-head {
+    width: 400px;
+}
+.underhead .container .left button {
+    background-color: #3882F6;
+    border: none;
+    margin: 5px 0 0 0;
+    padding: 5px 25px 5px 25px;
+    color: #F9FAF8;
+    border-radius: 5px;
 }
