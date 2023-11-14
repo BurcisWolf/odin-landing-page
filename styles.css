@@ -28,7 +28,7 @@
 }
 .signup {
     background-color: white;
-    padding: 25px 0 25px 0;
+    padding: 80px 0 80px 0;
 }
 .footer {
     background-color: #1F2937;
@@ -53,6 +53,20 @@
 }
 .quote-cont {
     max-width: 1000px;
+}
+.container-sign {
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px 50px 50px 120px;
+    border-radius: 10px;
+}
+.container-sign .call-left {
+    flex-grow: 1;
+}
+.container-sign .call-right {
+    flex-grow: 1;
 }
 /* Text Styling */
 .logo-text {
@@ -96,6 +110,10 @@
     font-size: 18px;
     padding: 15px 0 0 0;
 }
+.container-sign .call-left p {
+    text-align: left;
+}
+    
 /* Others */
 .img-head {
     max-width: 450px;
@@ -118,6 +136,21 @@
     border: 3px solid #3882F6;
     color: #3882F6;
 }
+.signup .container-sign .call-right button {
+    background-color: #3882F6;
+    border: 2px solid white;
+    padding: 5px 25px 5px 25px;
+    color: #F9FAF8;
+    border-radius: 5px;
+}
+.signup .container-sign .call-right button:hover {
+    background-color: white;
+    color: #3882F6;
+}
 .blue {
     background-color: #3882F6;
+    color: #F9FAF8;
+}
+.bold {
+    font-weight: 900;
 }
