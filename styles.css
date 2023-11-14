@@ -2,6 +2,7 @@
     border: border-box;
     margin: 0 auto;
     padding: 0;
+    font-size: 16px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
@@ -29,4 +30,30 @@
     max-width: 1000px;
     display: flex;
     flex-direction: row;
+    padding: 18px 0 18px 0;
+}
+.header .container .left {
+    flex-grow: 1;
+    text-align: left;
+}
+.header .container .right {
+    flex-grow: 1;
+    text-align: right;
+}
+/* Text Styling */
+
+.logo-text {
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 24px;
+}
+.header .container a {
+    text-decoration: none;
+    color: #F9FAF8;
+    padding-left: 10px;
+}
+.header .container a:hover {
+    text-decoration: underline;
+    color: #F9FAF8;
+    padding-left: 10px;
 }
