@@ -1,5 +1,8 @@
-# odin-landing-page
-Landing Page Project from https://www.theodinproject.com/lessons/foundations-landing-page
+# Odin Landing page Assignment
+Landing Page Project Assignment <a href="https://www.theodinproject.com/lessons/foundations-landing-page"> LINK </a>
 
-Very interesting project to test our skills in Flexbox, Making sections on the website and using some styling on our website.
-Even this website is really simple it gives us some information how normal websites are build.
+<h2>About</h2>
+- Very interesting project to test our HTML and CSS skills.<br>
+- Even this website is really simple, it gives us some information how normal websites are build.<br>
+
+
